@@ -30,6 +30,52 @@
 #         sum += x
 # print(f"총합:{sum}")
 
-import random
+# angle = int(input("각도 입력:"))
+#
+# if angle < 90 :
+#     print("예각입니다")
+# elif angle == 90 :
+#     print("직각입니다")
+# elif angle == 180 :
+#     print("평각입니다")
+# elif 180 > angle > 90 :
+#     print("둔각입니다.")
 
-num = random(0,10000)
+#테마파크 입장권과 놀이기구 이용패키지 선택 프로그램
+
+
+
+# amusement_park = {
+#    1:{
+#        'ticketName': '일반입장권',
+#        'ticketPrice': '50000'
+#    },
+#  2:{
+#        'ticketName': '프리미엄입장권',
+#        'ticketPrice': '75000'
+#    },
+#  3:{
+#        'ticketName': 'VIP입장권',
+#        'ticketPrice': '100000'
+#    }
+#
+# }
+# ticket = int(input("입장권 종류 번호 입력[1.일반입장권,2.프리미엄 입장권 3.VIP입장권]:"))
+# age = int(input("나이 입력:"))
+#
+# if age < 12:
+#     print(f"선택하신 티켓은 {amusement_park[ticket]['ticketName']}가격은 {amusement_park[ticket]['ticketPrice']}*0.5")
+# elif age >= 65:
+#     print(f"선택하신 티켓은 {amusement_park[ticket]['ticketName']}가격은 {amusement_park[ticket]['ticketPrice']}*0.7")
+# else:
+#     print(f"선택하신 티켓은 {amusement_park[ticket]['ticketName']}가격은 {amusement_park[ticket]['ticketPrice']}")
+#
+
+import random
+num = []
+for i in range(6):
+     num.append(random.randint(1,10001))
+num.sort()
+print(num)
+
+
